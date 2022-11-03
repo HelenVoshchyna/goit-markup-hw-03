@@ -13,6 +13,11 @@ body {
 ul {
   list-style: none;
 }
+.page-header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #ececec;
+}
 .logo {
   color: black;
   font-weight: 700;
@@ -57,8 +62,12 @@ ul {
   background-color: #2f303a;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  text-align: center;
+  padding: 200px 452px;
 }
 .hero-tittle {
+  margin-top: 0;
+  margin-bottom: 30px;
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
@@ -66,6 +75,9 @@ ul {
 }
 /*button*/
 .main-button {
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 216px;
   color: #ffffff;
   background-color: #2196f3;
   border-color: transparent;
@@ -74,6 +86,11 @@ ul {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.06em;
+  text-align: center;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 /*section-tittle*/
 .section-tittle {
@@ -82,33 +99,54 @@ ul {
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 .section-text {
   font-size: 14px;
   line-height: 24px;
+  margin-top: 0;
+}
+.section-photo {
+  padding-bottom: 94px;
 }
 .tittle-photo {
   color: var(--tittle-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.section-team {
+  background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .tittle-team {
   color: var(--tittle-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-align: center;
 }
 .team-name {
   color: var(--tittle-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 .team-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .portfolio-tittle {
   display: none;
@@ -121,6 +159,10 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
+  border-radius: 4px;
+  padding: 6px 22px;
+  min-width: 73px;
+  text-align: center;
 }
 .button:hover,
 .button:focus {
@@ -132,15 +174,21 @@ ul {
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
+  margin-top: 0;
+  margin-bottom: 4px;
 }
 .option-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .page-footer {
   background-color: #2f303a;
   color: rgba(255, 255, 255, 0.6);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-logo-studio {
   color: #ffffff;
@@ -161,4 +209,15 @@ ul {
 }
 .contact-footer .address {
   color: #ffffff;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.list {
+  padding: 0;
+  margin: 0;
 }
