@@ -97,13 +97,13 @@ h3 {
 /*hero-tittle*/
 .hero {
   background-color: #2f303a;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
 }
 .hero-tittle {
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
@@ -168,6 +168,11 @@ h3 {
 }
 .team-member:nth-child(4n) {
   margin-right: 0;
+}
+.resume {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /*section-tittle*/
@@ -256,6 +261,7 @@ h3 {
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
+  margin-bottom: 4px;
 }
 .option-text {
   font-weight: 400;
