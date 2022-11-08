@@ -31,6 +31,9 @@ h3 {
   display: flex;
   align-items: center;
 }
+.nav {
+  display: flex;
+}
 .logo {
   font-family: "Raleway";
   color: black;
@@ -38,6 +41,7 @@ h3 {
   font-size: 26px;
   line-height: 31px;
   text-decoration: none;
+  padding: 24px 0;
 }
 .logo-web {
   color: #2196f3;
